@@ -18,3 +18,46 @@
 18:18:43.269537 db@open done T·13.9858ms
 18:18:52.262030 db@close closing
 18:18:52.262055 db@close done T·25.258µs
+=============== Mar 14, 2022 (UTC) ===============
+18:24:37.213705 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:24:37.213768 version@stat F·[1] S·620B[620B] Sc·[0.25]
+18:24:37.213785 db@open opening
+18:24:37.213821 journal@recovery F·1
+18:24:37.214566 journal@recovery recovering @3
+18:24:37.218903 memdb@flush created L0@5 N·4 S·618B "\x85\x81,v6":"\x88,v9"
+18:24:37.219024 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+18:24:37.229569 db@janitor F·4 G·0
+18:24:37.229592 db@open done T·15.801833ms
+18:25:16.056596 db@close closing
+18:25:16.056653 db@close done T·55.434µs
+=============== Mar 14, 2022 (UTC) ===============
+18:25:57.106946 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:25:57.107019 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+18:25:57.107042 db@open opening
+18:25:57.107084 journal@recovery F·1
+18:25:57.107877 journal@recovery recovering @6
+18:25:57.112868 memdb@flush created L0@8 N·4 S·618B "\x85\x81,v11":"\x88,v14"
+18:25:57.112989 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+18:25:57.124108 db@janitor F·5 G·0
+18:25:57.124124 db@open done T·17.077237ms
+18:28:39.105050 db@close closing
+18:28:39.105113 db@close done T·62.058µs
+=============== Mar 14, 2022 (UTC) ===============
+18:28:42.730081 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:28:42.730158 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+18:28:42.730181 db@open opening
+18:28:42.730222 journal@recovery F·1
+18:28:42.730961 journal@recovery recovering @9
+18:28:42.735617 memdb@flush created L0@11 N·4 S·618B "\x85\x81,v16":"\x88,v19"
+18:28:42.735738 version@stat F·[4] S·2KiB[2KiB] Sc·[1.00]
+18:28:42.748889 db@janitor F·6 G·0
+18:28:42.748901 db@open done T·18.715676ms
+18:28:42.748930 table@compaction L0·4 -> L1·0 S·2KiB Q·20
+18:28:42.753644 table@build created L1@14 N·4 S·618B "\x85\x81,v16":"\x88,v19"
+18:28:42.753676 version@stat F·[0 1] S·618B[0B 618B] Sc·[0.00 0.00]
+18:28:42.759371 table@compaction committed F-3 S-1KiB Ke·0 D·12 T·10.411775ms
+18:28:42.759426 table@remove removed @8
+18:28:42.759466 table@remove removed @5
+18:28:42.759488 table@remove removed @2
+18:30:42.289679 db@close closing
+18:30:42.289712 db@close done T·33.634µs

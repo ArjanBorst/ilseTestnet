@@ -14,3 +14,40 @@
 18:18:43.290030 version@stat F·[1] S·481B[481B] Sc·[0.25]
 18:18:43.298865 db@janitor F·3 G·0
 18:18:43.298880 db@open done T·13.520692ms
+=============== Mar 14, 2022 (UTC) ===============
+18:24:37.245620 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:24:37.245701 version@stat F·[1] S·481B[481B] Sc·[0.25]
+18:24:37.245718 db@open opening
+18:24:37.245758 journal@recovery F·1
+18:24:37.245959 journal@recovery recovering @3
+18:24:37.250185 memdb@flush created L0@5 N·10 S·520B "\x812c..d\x00\x01,v18":"\x8178..6\x00\x01,v11"
+18:24:37.251078 version@stat F·[2] S·1001B[1001B] Sc·[0.50]
+18:24:37.261676 db@janitor F·4 G·0
+18:24:37.261690 db@open done T·15.968016ms
+=============== Mar 14, 2022 (UTC) ===============
+18:25:57.140908 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:25:57.140985 version@stat F·[2] S·1001B[1001B] Sc·[0.50]
+18:25:57.141003 db@open opening
+18:25:57.141050 journal@recovery F·1
+18:25:57.141230 journal@recovery recovering @6
+18:25:57.145437 memdb@flush created L0@8 N·24 S·844B "\x812c..d\x00\x01,v45":"\x8178..6\x00\x01,v23"
+18:25:57.146296 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+18:25:57.157153 db@janitor F·5 G·0
+18:25:57.157174 db@open done T·16.165548ms
+=============== Mar 14, 2022 (UTC) ===============
+18:28:42.763951 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:28:42.764026 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+18:28:42.764046 db@open opening
+18:28:42.764095 journal@recovery F·1
+18:28:42.764311 journal@recovery recovering @9
+18:28:42.768018 memdb@flush created L0@11 N·57 S·1KiB "\x812c..d\x00\x01,v103":"\x8178..6\x00\x01,v47"
+18:28:42.768129 version@stat F·[4] S·3KiB[3KiB] Sc·[1.00]
+18:28:42.777719 db@janitor F·6 G·0
+18:28:42.777736 db@open done T·13.684673ms
+18:28:42.777852 table@compaction L0·4 -> L1·0 S·3KiB Q·104
+18:28:42.781822 table@build created L1@14 N·3 S·377B "\x812c..d\x00\x01,v103":"\x8178..6\x00\x01,v101"
+18:28:42.781854 version@stat F·[0 1] S·377B[0B 377B] Sc·[0.00 0.00]
+18:28:42.787196 table@compaction committed F-3 S-3KiB Ke·0 D·97 T·9.322842ms
+18:28:42.787239 table@remove removed @8
+18:28:42.787255 table@remove removed @5
+18:28:42.787274 table@remove removed @2
