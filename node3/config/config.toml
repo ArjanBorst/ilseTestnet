@@ -253,7 +253,7 @@ seeds = ""
 bootstrap-peers = ""
 
 # Comma separated list of nodes to keep persistent connections to
-persistent-peers = "ee800abeeb692e3f795b107e23ab3f9af817c4ad@node0:26656,ec98b9d6eaa6a40ad5719ba42d7bf8e016118bcc@node1:26656,487c474b5715379bcf7ff9f9a45c9ddfc11e2bcd@node2:26656"
+persistent-peers = "1f0366a40a412361fad829c655dd633ce2ff40db@node0:26656,781f162ecdada2d95224c2bea86a55d65cd49606@node1:26656,3ce5b9dcce530244804b2ce889e4f7ecdffaa89f@node2:26656"
 
 # UPNP port forwarding
 upnp = false
