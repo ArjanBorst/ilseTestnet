@@ -1,42 +1,12 @@
+Startup command for node 0:
+tendermint start --home ./node0 --proxy-app=kvstore --p2p.persistent-peers="3d2a412809b601bbe12609baefcf8f38fdc9d458@149.210.250.146:26656,bc69724b9154b8ee8dd88356e6017e3d71713c3a@149.210.250.238:26656,2510fe06583015ca912a50013b6d5007c80b089a@93.119.3.62:26656"
 
-Install Tendermint v0.35.2 and compile
-use tendermint v0.35.2
+Startup command for node 1:
+tendermint start --home ./node0 --proxy-app=kvstore --p2p.persistent-peers="9634a5f615cb846e31e33c3cbcab8b2bea5d9025@83.161.147.149:26656,bc69724b9154b8ee8dd88356e6017e3d71713c3a@149.210.250.238:26656,2510fe06583015ca912a50013b6d5007c80b089a@93.119.3.62:26656"
 
-echo export GOPATH=\"\$HOME/go\" >> ~/.bash_profile
-echo export PATH=\"\$PATH:\$GOPATH/bin\" >> ~/.bash_profile
+Startup command for node 2:
+tendermint start --home ./node0 --proxy-app=kvstore --p2p.persistent-peers="9634a5f615cb846e31e33c3cbcab8b2bea5d9025@83.161.147.149:26656,3d2a412809b601bbe12609baefcf8f38fdc9d458@149.210.250.146:26656,2510fe06583015ca912a50013b6d5007c80b089a@93.119.3.62:26656"
 
-git clone https://github.com/tendermint/tendermint.git
-cd tendermint
+Startup command for node 3:
+tendermint start --home ./node0 --proxy-app=kvstore --p2p.persistent-peers="3d2a412809b601bbe12609baefcf8f38fdc9d458@149.210.250.146:26656,bc69724b9154b8ee8dd88356e6017e3d71713c3a@149.210.250.238:26656,2510fe06583015ca912a50013b6d5007c80b089a@93.119.3.62:26656"
 
-make install
-make build
-
-#Check version
-tendermint verion
-
-
-tendermint show-node-id --home ./node0
-tendermint show-node-id --home ./node1
-tendermint show-node-id --home ./node2
-tendermint show-node-id --home ./node3
-
-
-ilse1:
-IP    : 149.210.250.146
-NodeID: ee800abeeb692e3f795b107e23ab3f9af817c4ad
-Name  : node0
-
-ilse2:
-IP    : 149.210.250.238
-NodeID: ec98b9d6eaa6a40ad5719ba42d7bf8e016118bcc
-Name  : node1
-
-ilse3:
-IP    : 93.119.3.62
-NodeID: 487c474b5715379bcf7ff9f9a45c9ddfc11e2bcd
-Name  : node2
-
-ilse4:
-IP    :
-NodeID: 35bd47b5a7a9a77c56a46b61210e27d67124fab3
-Name  : node3
