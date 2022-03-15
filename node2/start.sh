@@ -1,2 +1,0 @@
-tendermint start --home ./mytestnet/node2 --proxy-app=kvstore --p2p.persistent-peers="ee800abeeb692e3f795b107e23ab3f9af817c4ad@149.210.250.146:26656,ec98b9d6eaa6a40ad5719ba42d7bf8e016118bcc@149.210.250.238:26656,487c474b5715379bcf7ff9f9a45c9ddfc11e2bcd@93.119.3.62:26656,35bd47b5a7a9a77c56a46b61210e27d67124fab3@80.56.213.114:26656"
-
